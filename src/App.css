@@ -82,7 +82,8 @@
 }
 
 .card:hover {
-  background-color: hsla(0, 3%, 72%, 0.982);
+  background-color: hsla(0, 3%, 8%, 0.982);
+
 }
 .navbar-dark .navbar-brand {
   color: #000000 !important;
