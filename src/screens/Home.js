@@ -14,8 +14,8 @@ export default function Home(){
   const loadData = async ()=>{
 
     try{
-      let response = await fetch("https://food-commerce-server-4u4ju0tnc-zeecode15s-projects.vercel.app/api/foodData",{
-        method:"GET",
+      let response = await fetch("https://seven-spices-backend.onrender.com/api/foodData",{
+        method:"POST",
         header:{
           'Content-Type': 'application/json'
         }
