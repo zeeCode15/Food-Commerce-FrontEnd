@@ -22,7 +22,7 @@ export default function () {
     //     location: credentials.geolocation,
     //   })
     // );
-    const response = await fetch("https://food-commerce-server-4u4ju0tnc-zeecode15s-projects.vercel.app/api/createuser", {
+    const response = await fetch("https://seven-spices-backend.onrender.com/api/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
