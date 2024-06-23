@@ -8,7 +8,7 @@ export default function Login() {
     const handleSubmit = async(e)=>{
         e.preventDefault();
         // console.log(JSON.stringify({email:credentials.email, password:credentials.password}))
-        const response = await fetch("https://food-commerce-server-4u4ju0tnc-zeecode15s-projects.vercel.app/api/loginuser",{
+        const response = await fetch("https://seven-spices-backend.onrender.com/api/loginuser",{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
